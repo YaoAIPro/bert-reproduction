@@ -2,7 +2,7 @@
 
 REM 设置 BERT 和 GLUE 目录
 SET BERT_BASE_DIR=E:\Learning\Model\Google\BERT\multi_cased_L-12_H-768_A-12
-SET GLUE_DIR=E:\Learning\Data\GLUE
+SET GLUE_DIR=E:\Personal\git-project\bert-reproduction\dataset\GLUE
 SET Dataset=COLA
 
 REM 激活虚拟环境
@@ -31,7 +31,7 @@ python ../run_classifier.py ^
   --train_batch_size=32 ^
   --learning_rate=2e-5 ^
   --num_train_epochs=1.0 ^
-  --output_dir="E:\Learning\Algorithm-Reproduction\bert\output\%Dataset%"
+  --output_dir="E:\Personal\git-project\bert-reproduction\output\%Dataset%"
 
 REM 检查Python脚本的返回代码
 if %ERRORLEVEL% neq 0 (

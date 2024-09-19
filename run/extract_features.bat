@@ -2,7 +2,7 @@
 
 REM 设置 BERT 和 GLUE 目录
 SET BERT_BASE_DIR=E:\Learning\Model\Google\BERT\multi_cased_L-12_H-768_A-12
-SET BASE_DIR=E:\Learning\Algorithm-Reproduction\bert
+SET BASE_DIR=E:\Personal\git-project\bert-reproduction
 REM 激活虚拟环境
 call conda activate bert
 
@@ -18,7 +18,7 @@ echo Activated conda environment 'bert'.
 
 REM 运行 Python 脚本
 python ../extract_features.py ^
-  --input_file=%BASE_DIR%\dataset\input.txt ^
+  --input_file=%BASE_DIR%\dataset\origin_data\input.txt ^
   --output_file=%BASE_DIR%\output\output.jsonl ^
   --vocab_file=%BERT_BASE_DIR%\\vocab.txt ^
   --bert_config_file=%BERT_BASE_DIR%\bert_config.json ^

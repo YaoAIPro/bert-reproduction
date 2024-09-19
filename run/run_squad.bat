@@ -2,8 +2,8 @@
 
 REM 设置 BERT 和 GLUE 目录
 SET BERT_BASE_DIR=E:\Learning\Model\Google\BERT\multi_cased_L-12_H-768_A-12
-SET SQUAD_DIR=E:\Learning\Data\NLP\SQuAD
-SET Dataset=SQuAD
+SET SQUAD_DIR=E:\Personal\git-project\bert-reproduction\dataset\SQuAD 1.1
+SET Dataset=SQuAD1-1
 
 REM 激活虚拟环境
 call conda activate bert

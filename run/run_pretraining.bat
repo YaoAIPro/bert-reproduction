@@ -2,7 +2,7 @@
 
 REM 设置 BERT 和 GLUE 目录
 SET BERT_BASE_DIR=E:\Learning\Model\Google\BERT\multi_cased_L-12_H-768_A-12
-SET BASE_DIR=E:\Learning\Algorithm-Reproduction\bert
+SET BASE_DIR=E:\Personal\git-project\bert-reproduction
 SET Dataset=darkmyth
 
 REM 激活虚拟环境
