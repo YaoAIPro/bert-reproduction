@@ -33,7 +33,7 @@ pip install tensorflow-gpu==2.10.0
 pip install six==1.15.0
 ```
 
-# 模型下载
+# 模型下载([from Google bert](https://github.com/google-research/bert))
 
 - **[`BERT-Large, Uncased (Whole Word Masking)`](https://storage.googleapis.com/bert_models/2019_05_30/wwm_uncased_L-24_H-1024_A-16.zip)**: 24-layer, 1024-hidden, 16-heads, 340M parameters
 - **[`BERT-Large, Cased (Whole Word Masking)`](https://storage.googleapis.com/bert_models/2019_05_30/wwm_cased_L-24_H-1024_A-16.zip)**: 24-layer, 1024-hidden, 16-heads, 340M parameters
