@@ -2,6 +2,8 @@
 
 本仓库的代码是基于Google发布的tensorflow1.x版本的改进版本，已经将全部的api转换为tensorflow2.x版本可兼容的api。以下的实验结果基于BERT-Base, Multilingual Cased，单个任务执行需要消耗14G左右的显存。
 
+复现笔记：https://mp.weixin.qq.com/s/0yhLIBFosBHe7QYvcoNI7g?token=224962903&lang=zh_CN
+
 # 设备条件及tensorflow对应的版本
 
 ```python
